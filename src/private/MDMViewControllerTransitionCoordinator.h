@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "MDMTransitionContext.h"
+#import "../MDMTransitionContext.h"
 
 @protocol MDMTransition;
 @protocol MDMViewControllerTransitionCoordinatorDelegate;

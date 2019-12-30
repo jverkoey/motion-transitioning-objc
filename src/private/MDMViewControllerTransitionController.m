@@ -16,7 +16,7 @@
 
 #import "MDMViewControllerTransitionController.h"
 
-#import "MDMTransition.h"
+#import "../MDMTransition.h"
 #import "MDMViewControllerTransitionCoordinator.h"
 
 @interface MDMViewControllerTransitionController () <UIViewControllerTransitioningDelegate, MDMViewControllerTransitionCoordinatorDelegate>

@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDMTransitionController.h"
+#import "../MDMTransitionController.h"
 
 @interface MDMViewControllerTransitionController : NSObject <MDMTransitionController, UIViewControllerTransitioningDelegate>
 
