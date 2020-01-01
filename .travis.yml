@@ -27,6 +27,6 @@ script:
       pod install;
       xcodebuild build
         -workspace "MotionTransitioning.xcworkspace"
-        -scheme MotionTransitioningCatalog
+        -scheme TransitionsCatalog
         -destination "platform=iOS Simulator,name=iPhone Xs Max,OS=12.2" | xcpretty;
     fi
